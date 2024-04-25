@@ -8,3 +8,8 @@ position in the tuple
 """
 
 people=("John","Tyler","Dash","Kieran","Jayson","Tomoki","Minji","Dawson","Hewitt","Josh","Anson","Cole")
+
+x=int(input("Enter a number that is less than 10: "))
+for i in people:
+    print(people[x])
+    break
